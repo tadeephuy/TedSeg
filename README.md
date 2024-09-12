@@ -7,7 +7,7 @@ Segmentation of polyps from [Kvasir-SEG](https://datasets.simula.no/kvasir-seg/)
 ```python
 import os
 import torch
-from TedSeg import *
+from tedseg import *
 ```
 
 
