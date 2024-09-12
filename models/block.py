@@ -3,8 +3,7 @@ import torch
 import torch.nn as nn
 import torch.nn.functional as F
 import sys
-sys.path.append('/vinbrain/huyta/COVID_wave_4/utils/')
-from layers import PixelShuffle_ICNR 
+from .layers import PixelShuffle_ICNR 
 
 def crop_combine(x1, x2):
     diffY = x2.size()[2] - x1.size()[2]
