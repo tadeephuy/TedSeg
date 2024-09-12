@@ -8,8 +8,7 @@ from .block import Resnet101BlockUp
 
 # from fastai.vision.models.unet import DynamicUnet
 import sys
-sys.path.append('/vinbrain/huyta/COVID_wave_4/utils/')
-from layers import PixelShuffle_ICNR 
+from .layers import PixelShuffle_ICNR 
 
 import timm
 class Backbone:
